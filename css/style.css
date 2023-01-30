@@ -1,0 +1,33 @@
+#btn {
+    color: rgb(5, 155, 0)
+}
+
+.text {
+    text-align: center;
+}
+
+#Font {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* min-height: calc(100vh - 64px); */
+    min-height: 75vh;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+   
+    background-image: url('../Img/médiationimg.jpg');
+    background-position: center;
+    flex-direction: column;
+}
+.font{
+    background-color: beige;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    color: rgb(2, 2, 2);
+}
